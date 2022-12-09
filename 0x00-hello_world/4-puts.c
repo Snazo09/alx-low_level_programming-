@@ -1,8 +1,11 @@
-#include <studio.h>
+#include <stdio.h>
+
 /**
- * main - main block
- * Return: o
+ * main - Entry Point
+ *
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
