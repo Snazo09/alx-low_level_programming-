@@ -1,25 +1,10 @@
-#include "main.h"
+#!/usr/bin/python3
+def print_last_digit(number):
+    if number >= 0:
+        l_digit = number % 10
+    else:
+        l_digit = number % -10
+        l_digit *= -1
 
-/**
- * print_last_digit - prints the last digit
- * of a number.
- *
- * @n: input number as an integer.
- * Return: last digit.
- */
-int print_last_digit(int n)
-{
-	int l;
-
-	l = n % 10;
-	if (l < 0)
-	{
-		_putchar(-l + 48);
-		return (-l);
-	}
-	else
-	{
-		_putchar(l + 48);
-		return (-l);
-	}
-}
+    print("{:d}".format(l_digit), end='')
+    return (l_digit)
