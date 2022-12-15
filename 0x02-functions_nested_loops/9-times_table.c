@@ -4,7 +4,7 @@
  * times_table - print the 9 times table
  * Return: 0 (Always Success)
  */
-void times_table(void)
+void times_table_x9(void)
 {
 	int a, b, c;
 
