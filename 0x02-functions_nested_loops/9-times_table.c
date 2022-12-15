@@ -4,7 +4,7 @@
  * times_table - print the 9 times table
  * Return: 0 (Always Success)
  */
-void times_table_x9(void)
+void times_table(void)
 {
 	int a, b, c;
 
@@ -36,7 +36,6 @@ void times_table_x9(void)
 				_putchar((c / 10) + '0');
 				_putchar((c % 10) + '0');
 				if (b < 9)
-			}
 		}
 		_putchar('\n');
 	}
