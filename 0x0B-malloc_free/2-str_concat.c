@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 
 	length_c = length_S1 + length_S2;
 
-	concat = malloc((length_c + 1) * sizeof(char));
+	concat = malloc((length_c + 1) *int matriz[n2];
 	if (concat == 0)
 		return (0);
 
