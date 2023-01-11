@@ -12,9 +12,6 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *concat;
-	unsigned int i;
-	unsigned int j;
 	unsigned int length_S1;
 	unsigned int length_S2;
 	unsigned int length_c;
@@ -30,7 +27,7 @@ char *str_concat(char *s1, char *s2)
 
 	length_c = length_S1 + length_S2;
 
-	concat = malloc((length_c + 1) *int matriz[n2];
+	concat = malloc((length_c + 1) *matriz[n2];
 	if (concat == 0)
 		return (0);
 
@@ -40,5 +37,5 @@ char *str_concat(char *s1, char *s2)
 	for (j = 0; j < length_S2; i++, j++)
 		concat[i] = s2[j];
 
-	return (concat);
+	return (concat)
 }
