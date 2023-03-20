@@ -1,14 +1,20 @@
-
 #include "main.h"
-void _puts(char *str)
-#include<stdio.h>
 /**
- * main - Entry point
+ *_puts - prints a string
+ *@str: A pointer to an int that will be changed
  *
- * Return: Always 0 (Success)
+ *Return: void which means our answer is correct
  */
-int main(void)
+
+void _puts(char *str)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+
+int i;
+
+for (i = 0; str[i] != '\0'; i++)
+{
+_putchar(str[i]);
+}
+_putchar('\n');
+return;
 }
